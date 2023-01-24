@@ -11,23 +11,23 @@ function Footer() {
     <S.ContainerFooter>
       <Container>
         <S.Icons>
-          <a>
+          <a href="https://www.linkedin.com/in/william-colognesi-a1638a189/">
             <img src={Linkedin} />
           </a>
 
-          <a>
+          <a href="https://github.com/williamcolognesi">
             <img src={GitHub} />
           </a>
 
-          <a>
+          <a href="https://wa.me/5519994337803">
             <img src={Wpp} />
           </a>
 
-          <a>
+          <a href="mailto:williamcolognesi.developer@gmail.com?subject=&body=Estava%20olhando%20seu%20portfolio%20e%20gostaria%20de%20saber%20mais!">
             <img src={Mail} />
           </a>
 
-          <a>
+          <a href="https://www.instagram.com/williamcolognesi/">
             <img src={Insta} />
           </a>
         </S.Icons>

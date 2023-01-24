@@ -38,27 +38,6 @@ function Portfolio() {
               </p>
             </div>
           </S.CardJobs>
-          <S.CardJobs>
-            <div>
-              <h1>Filmaria</h1>
-              <p>Pagina que lista e armazena seus filmes favoritos</p>
-            </div>
-          </S.CardJobs>
-          <S.CardJobs>
-            <div>
-              <h1>Gerador de senha</h1>
-              <p>Gerador automatico de senha</p>
-            </div>
-          </S.CardJobs>
-          <S.CardJobs>
-            <div>
-              <h1>Cartão fidelidade</h1>
-              <p>
-                Aplicativo que scaneia QRCode e armazena pontos para troca em
-                produtos
-              </p>
-            </div>
-          </S.CardJobs>
         </Grid>
       </Container>
     </S.ContainerPortfolio>
