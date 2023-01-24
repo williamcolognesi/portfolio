@@ -14,7 +14,9 @@ function Contact() {
             <p>
               Estou a disposição para atende-lo(a) da melhor maneira possível.
             </p>
-            <Button>Conversar agora</Button>
+            <a href="https://wa.me/5519994337803">
+              <Button>Conversar agora</Button>
+            </a>
           </Grid>
         </Grid>
       </Container>

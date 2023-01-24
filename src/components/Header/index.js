@@ -9,7 +9,9 @@ function Header() {
         <Container maxWidth="xl">
           <S.Header>
             <img src={Logo} />
-            <button>Contate-me</button>
+            <a href="https://wa.me/5519994337803">
+              <button>Contate-me</button>
+            </a>
           </S.Header>
         </Container>
       </S.ContainerHeader>

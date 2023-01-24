@@ -12,6 +12,10 @@ export const ContainerContact = styled.section`
   margin-bottom: 100px;
   margin-top: 100px;
 
+  a {
+    text-decoration: none;
+  }
+
   h1 {
     font-weight: 700;
     font-size: 36px;

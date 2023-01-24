@@ -5,7 +5,8 @@ export const ContainerPortfolio = styled.section`
   justify-content: center;
   align-items: center;
   padding-top: 150px;
-  background: #ffffff;
+  background: #fafafa;
+  margin-top: 30px;
 
   @media (max-width: 600px) {
     padding-left: 20px;
@@ -41,10 +42,11 @@ export const CardJobs = styled.div`
   align-items: center;
   justify-content: center;
   margin-top: 100px;
+  margin-bottom: 50px;
   width: 400px;
   height: 400px;
   border-radius: 30px;
-  background-color: #fafafa;
+  background-color: #ffffff;
   h1 {
     font-weight: 700;
     font-size: 36px;

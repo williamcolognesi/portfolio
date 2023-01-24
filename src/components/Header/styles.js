@@ -26,4 +26,7 @@ export const Header = styled.div`
     text-align: center;
     color: #00a6ed;
   }
+  button:hover {
+    cursor: pointer;
+  }
 `;
