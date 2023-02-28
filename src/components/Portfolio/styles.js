@@ -36,6 +36,8 @@ export const teste = styled.div`
 `;
 
 export const CardJobs = styled.div`
+  background: ${(props) => props.back};
+  background-position: 50%;
   margin: 0 auto;
   padding: 20px;
   display: flex;
@@ -43,21 +45,24 @@ export const CardJobs = styled.div`
   justify-content: center;
   margin-top: 100px;
   margin-bottom: 50px;
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
   border-radius: 30px;
-  background-color: #ffffff;
+  a{
+    text-decoration: none;
+  }
+  filter: drop-shadow(-4px 8px 16px rgba(0, 0, 0, 0.16));
   h1 {
     font-weight: 700;
-    font-size: 36px;
+    font-size: 34px;
     line-height: 44px;
     text-align: center;
-    color: #000000;
+    color: #4f4d4d;
   }
   p {
     margin-top: 20px;
-    font-weight: 400;
-    font-size: 36px;
+    font-weight: 500;
+    font-size: 30px;
     line-height: 44px;
     text-align: center;
     color: #4f4d4d;
