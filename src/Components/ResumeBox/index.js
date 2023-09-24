@@ -132,7 +132,49 @@ export default function ResumeBox() {
         <Grid container justifyContent="center">
           <Grid item xs={8}>
             <S.Info color={"#e21e80"}>
-              <Grid container columnSpacing={4} rowSpacing={2}>
+              <Grid container rowSpacing={2}>
+                <Grid item xs={12}>
+                  <S.Subtitle>
+                    <h3>Skills Profissionais</h3>
+                  </S.Subtitle>
+                </Grid>
+                <Grid item xs={6}>
+                  <div className="teste">SEO/SEM Marketing</div>
+                </Grid>
+                <Grid item xs={6}>
+                  <div className="teste">Web Development</div>
+                </Grid>
+                <Grid item xs={6}>
+                  <div className="teste">Network Security</div>
+                </Grid>
+                <Grid item xs={6}>
+                  <div className="teste">User Interface Design</div>
+                </Grid>
+              </Grid>
+              <Grid container rowSpacing={2}>
+                <Grid item xs={12}>
+                  <S.Subtitle className="linguagens">
+                    <h3>Linguagens</h3>
+                  </S.Subtitle>
+                </Grid>
+                <Grid item xs={4}>
+                  <div className="teste">HTML</div>
+                </Grid>
+                <Grid item xs={4}>
+                  <div className="teste">CSS</div>
+                </Grid>
+                <Grid item xs={4}>
+                  <div className="teste">Javascript</div>
+                </Grid>
+                <Grid item xs={4}>
+                  <div className="teste">React</div>
+                </Grid>
+                <Grid item xs={4}>
+                  <div className="teste">Next.js</div>
+                </Grid>
+                <Grid item xs={4}>
+                  <div className="teste">Node.js</div>
+                </Grid>
               </Grid>
             </S.Info>
           </Grid>
