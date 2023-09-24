@@ -16,6 +16,16 @@ export const Subtitle = styled.div`
     line-height: 38px;
     margin-bottom: 24px;
   }
+  h3 {
+    background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    margin-bottom: 24px;
+    margin-left: 20px;
+  }
 `;
 
 export const Info = styled.div`
@@ -64,5 +74,16 @@ export const Info = styled.div`
     height: 100%;
     display: flex;
     align-items: center;
+  }
+
+  .teste {
+    background-color: rgb(248, 249, 250);
+    padding: 20px;
+    margin: 0 20px;
+    border-radius: 20px;
+    text-align: center;
+  }
+  .linguagens {
+    padding-top: 40px ;
   }
 `;
