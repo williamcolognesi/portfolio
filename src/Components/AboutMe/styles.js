@@ -50,5 +50,6 @@ export const Icons = styled.div`
     padding: 10px;
     cursor: pointer;
     text-decoration: none;
+    color: #1e30f3;
   }
 `;

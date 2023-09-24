@@ -15,13 +15,16 @@ export const ContainerHeader = styled.header`
     align-items: center;
   }
   li {
-    color: rgba(0, 0, 0, 0.55);
     font-size: 14px;
     font-weight: 700;
     line-height: 21px;
     cursor: pointer;
   }
-  li:hover {
+  a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.55);
+  }
+  a:hover{
     color: #000;
   }
 `;
