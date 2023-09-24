@@ -17,15 +17,3 @@ export const Title = styled.div`
   }
 `;
 
-export const Subtitle = styled.div`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  h2 {
-    color: rgb(30, 48, 243);
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 38px;
-  }
-`;

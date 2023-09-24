@@ -20,6 +20,11 @@ export default function Hero() {
       '"Segoe UI Emoji"',
       '"Segoe UI Symbol"',
     ].join(","),
+    "&:hover": {
+      borderColor: "#fff",
+      backgroundColor: "#000",
+      color: "#fff",
+    },
   });
 
   const ButtonBlue = styled(Button)({
@@ -38,6 +43,11 @@ export default function Hero() {
       '"Segoe UI Emoji"',
       '"Segoe UI Symbol"',
     ].join(","),
+    "&:hover": {
+      borderColor: "#1e30f3",
+      backgroundColor: "#fff",
+      color: "#1e30f3",
+    },
   });
   return (
     <S.ContainerHero>
@@ -56,7 +66,7 @@ export default function Hero() {
           </Grid>
           <Grid item xs={12} xl={5}>
             <S.ImageBlock>
-              <img src={ImageHero} />
+              <img src={ImageHero} alt="Imagem do desenvolvedor web" />
             </S.ImageBlock>
           </Grid>
         </Grid>
